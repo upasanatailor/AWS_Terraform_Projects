@@ -1,17 +1,30 @@
 # Local .terraform folder (contains providers and modules)
-.terraform/
+**/.terraform/
 
 # Terraform state files (contains sensitive info like passwords/IPs)
-*.tfstate
-*.tfstate.backup
-*.tfstate.lock.info
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfstate.lock.info
 
 # Variable files (often contain secrets/keys)
-*.tfvars
-*.tfvars.json
+**/*.tfvars
+**/*.tfvars.json
 
 # Crash logs
 crash.log
+**/crash.log
 
 # Sensitive environment files (often contain secrets/keys)
 .env
+**/.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

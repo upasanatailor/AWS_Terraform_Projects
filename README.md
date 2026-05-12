@@ -40,7 +40,7 @@ The core Terraform workflow is simple:
 > **Write** your infrastructure config → **Plan** the changes → **Apply** to provision real resources
 
 <div align="center">
-  <img src="Images/terraform_archi.webp" alt="Terraform architecture diagram showing Write, Plan, Apply workflow" width="600"/>
+  <img src="Images/terraform_archi.jpeg" alt="Terraform architecture diagram showing Write, Plan, Apply workflow" width="600"/>
 </div>
 
 Key Terraform concepts used throughout this repo:
