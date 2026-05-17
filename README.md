@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="Images/logo.jpeg" alt="CloudKaro AWS Terraform Projects Logo" width="100%"/>
-
+  <img src="https://github.com/upasanatailor/DevOps_Projects/blob/main/Images/logo2.png" alt="DevOps Projects Logo" width="100%"/>
   <h1>AWS Terraform Projects</h1>
 
   <p>Daily hands-on Terraform + AWS projects — from zero to certified, one day at a time.</p>
