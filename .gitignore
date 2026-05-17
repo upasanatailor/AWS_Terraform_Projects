@@ -10,6 +10,11 @@
 **/*.tfvars
 **/*.tfvars.json
 
+
+
+# Terraform lock file
+.terraform.lock.hcl
+
 # Crash logs
 crash.log
 **/crash.log

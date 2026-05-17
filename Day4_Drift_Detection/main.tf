@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "my_bucket" {
 }
 
 resource "aws_instance" "name" {
-  ami = "ami-091138d0f0d41ff90"
+  ami = "ami-xxxxxxxx"
   instance_type = "t2.micro"
   
   tags = {
@@ -22,7 +22,7 @@ resource "aws_instance" "name" {
 resource "aws_security_group" "server-day4" {
     name        = "mmy-manual-sg-day4"
     description = "Security group for my manual EC2 instance"
-    vpc_id      = "vpc-0a2cc7edce3285d05"
+    vpc_id      = var.vpc_id
     
     ingress {
         from_port   = 22
